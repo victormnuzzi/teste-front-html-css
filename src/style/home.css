@@ -1,0 +1,355 @@
+@import url("./base.css");
+
+
+/* Container conteúdo */
+
+.container-secao-hero {
+    width: 100%;
+    min-height: 60vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 120px;
+    padding: 5% 15%;
+}
+
+h1 {
+    color: var(--verde-claro);
+    font-family: var(--fonte);
+    font-size: 50px;
+}
+
+h2 {
+    color: var(--verde-claro);
+    font-family: var(--fonte);
+    font-size: 38px;
+}
+
+p {
+    color: #4b545b;
+}
+
+/* ------ Seção Rastrear ------ */
+
+.container-conteudo-base--rastrear {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.container--rastrear-acao {
+    width: 100%;
+    display: flex;
+    gap: 4px;
+}
+
+#input-rastrear {
+    width: 100%;
+    font-size: 14px;
+    border: 2px solid rgb(215, 215, 215);
+    border-radius: 4px;
+    outline: none;
+    padding: 10px;
+    background-color: transparent;
+}
+
+#btn-rastrear {
+    font-size: 14px;
+    padding: 12px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-family: var(--fonte-bold);
+    font-size: 12px;
+    color: white;
+    background-color: #6A7883;
+    border-radius: 4px;
+    border: 0px;
+}
+
+#btn-rastrear:hover {
+    cursor: pointer;
+    transition: .5s;
+    background-color: #898d91;
+}
+
+#btn-rastrear img {
+    height: 20px;
+    width: 20px;
+}
+
+/* Imagem Home */
+.container-img {
+    width: 100%;
+}
+
+.container-img img {
+    width: 100%;
+}
+
+/* ------ Seção Sobre ------ */
+
+.container-secao-sobre {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 5% 15%;
+}
+
+.container-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+.container-heading p {
+    color: #4b545b;
+}
+ 
+
+/* Cards */
+
+.container-card-sobre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.card-sobre {
+    width: 28%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-sobre img {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+
+.card-sobre h3 {
+    text-align: center;
+    color: var(--verde-claro);
+}
+
+.card-sobre p {
+    text-align: center;
+    color: #4b545b;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+/* Botão Cadastrar */
+
+.container-sobre-cadastrar {
+    margin-top:40px;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container-sobre-cadastrar h2 {
+    font-size: 28px;
+}
+
+.container-sobre-cadastrar button {
+    background-color: var(--verde-claro);
+    border: 0;
+    border-radius: 6px;
+    padding: 15px 20px;
+    font-size: 12px;
+    color: #fff;
+    font-family: var(--fonte-bold);
+}
+
+.container-sobre-cadastrar button:hover {
+    background-color: var(--verde-escuro);
+    cursor: pointer;
+    transition: .5s;
+}
+
+
+/* ------ Seção Parceiros ------ */
+
+.container-secao-parceiros {
+    background-color: var(--verde-claro);
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: stretch;
+    padding: 8% 20%;
+    height: 350px;
+    gap: 6px;
+}
+
+/* Container do texto */
+
+.container-parceiros-texto {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+.container-parceiros-texto h2 {
+    color: #fff;
+    
+}
+
+.container-parceiros-texto p {
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Logos dos Parceiros */
+
+.parceiros-logos {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 30px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.parceiros-logos img {
+    height: 100%;
+    max-width: 90px;
+}
+
+#logo-jt {
+    height: 30px;
+}
+
+#logo-azul-cargo {
+    height: 60px;
+}
+
+#logo-correios {
+    height: 70px;
+}
+
+/* Imagem */
+
+.container-parceiros-imagem {
+    width: 40%;
+    height: 100%;
+}
+
+.container-parceiros-imagem img {
+    width: 100%;
+}
+
+/* ------ Seção Ajuda ------ */
+
+.container-secao-ajuda {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    padding: 5% 15%;
+}
+
+.container-ajuda {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* Imagem */
+
+.ajuda-imagem {
+    width: 44%;
+}
+
+.ajuda-imagem img {
+    height: 100%;
+    width: 100%;
+}
+
+.ajuda-textos-heading {
+    width: 44%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.ajuda-textos-heading p {
+    font-size: 18px;
+    font-family: var(--fonte);
+}
+
+/* Cards */
+
+.container-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.card {
+    width: 220px;
+    height: 350px;
+    padding: 50px 15px;
+    border: 1.5px solid var(--verde-claro);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+}
+
+.card h3 {
+    font-family: var(--fonte);
+    color: var(--verde-claro);
+}
+
+.card p, li {
+
+    line-height: 1.5em;
+    color: #4b545b;
+    font-size: 12px;
+}
+
+.card ul {
+    margin-left: 10px;
+}
+
+.ajuda-icon {
+    height: 40px;
+    width: 40px;
+}
+
+#icon-seta {
+    cursor: pointer;
+}

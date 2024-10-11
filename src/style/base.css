@@ -1,0 +1,137 @@
+/* variáveis */
+:root {
+    --fonte: Helvetica, sans-serif;
+    --fonte-bold: 'Helvetica Neue';
+    --azul-escuro: #004AAD;
+    --verde-escuro: #1A9047;
+    --verde-claro: #2BC866;
+}
+
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte);
+}
+
+/* font */
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../assets/fonts/HelveticaNeueBold.otf');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+main {
+    padding-top: 70px; /* altura do header */
+}
+
+/* -------------- Header -------------- */
+
+.header-container {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1.5px solid rgb(215, 215, 215);
+    background-color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+/* Logo e Nome */
+.container-logo-empresa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.container--logo-empresa > h2 {
+    color: var(--azul-escuro);
+    font-family: var(--fonte-bold);
+}
+
+.container-logo {
+    height: 60px;
+}
+
+.container-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Nav */
+
+nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--azul-escuro);
+    font-family: var(--fonte-bold);
+    font-size: 22px;
+}
+
+nav a:hover {
+    transition: .5s;
+    color: #2684ff;
+}
+
+/* Botões */
+
+.btn-container {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 8px 30px;
+    border-radius: 18px;
+    font-size: 18px;
+}
+
+#btn-entrar {
+    background-color: transparent;
+    border: 2px solid var(--verde-claro);
+    color: var(--verde-claro);
+}
+
+#btn-entrar:hover {
+    background-color: var(--verde-escuro);
+    border: 2px solid var(--verde-escuro);
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#btn-cadastrar {
+    background-color: var(--verde-escuro);
+    border: 2px solid var(--verde-escuro);
+    color: #fff;
+}
+
+#btn-cadastrar:hover {
+    background-color: transparent;
+    color: var(--verde-claro);
+    border: 2px solid var(--verde-claro);
+    cursor: pointer;
+    transition: .5s;
+}

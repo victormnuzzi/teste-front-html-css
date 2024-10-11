@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rastreio Xpress</title>
+
+    <!-- Link CSS -->
+     <link rel="stylesheet" href="./src/style/home.css">
+     <link rel="stylesheet" href="./src/style/base.css">
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="./src/assets/Images/icon.png" type="image/x-icon">
+    
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header-container">
+
+        <!-- Nome e logo da empresa -->
+        <div class="container-logo-empresa">
+
+            <!-- container do logo -->
+            <div class="container-logo">
+                <img width="100" height="100" src="https://img.icons8.com/ios-filled/100/40C057/in-transit--v1.png" alt="in-transit--v1"/>
+            </div>
+            <h2>Rastreio Xpress</h2>
+        </div>
+
+        <!-- Menu Nava -->
+        <nav>
+            <ul> 
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre nós</a></li>
+                <li><a href="#parceiros">Parceiros</a></li>
+                <li><a href="#ajuda">Ajuda</a></li>
+            </ul>
+        </nav>
+
+        <!-- Botões header --> 
+        <div class="btn-container">
+            <button class="btn" id="btn-entrar">Entrar</button>
+            <button class="btn" id="btn-cadastrar">Cadastrar</button>
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- ----- Seção Rastreio do produto ----- -->
+        <section class="container-secao-hero">
+            
+            <!-- Container "Rastrear" -->
+            <div id="home" class="container-conteudo-base--rastrear">
+                <h1>Rastreie seu Pedido!</h1>
+    
+                <div class="container--rastrear-acao">
+                    <input id="input-rastrear" type="text" placeholder="Código de rastreamento">
+                    <button id="btn-rastrear"><img width="100" height="100" src="https://img.icons8.com/ios-filled/100/FFFFFF/marker.png" alt="marker"/>RASTREAR</button>
+                </div>
+            </div>
+
+            <!-- Imagem -->
+            <div class="container-img">
+                <img src="./src/assets/Images/boxes.svg" alt="Cidade com prédios verdes e com ícones de localização no ar">
+            </div>
+
+        </section>
+
+        <!-- ----- Seção Sobre nós ----- -->
+
+        <section id="sobre" class="container-secao-sobre">
+                
+            <!-- Container heading -->
+            <div class="container-heading">
+                <h2>Veja como o Rastreio Xpress pode facilitar sua rotina</h2>
+                <p>As funcionalidades do Rastreio Xpress foram desenvolvidas para ajudar você a organizar a rotina logística.</p>
+            </div>
+
+            <!-- ------- Cards com flexbox ------- -->
+
+            <div class="container-card-sobre">
+                <!-- Card 1 -->
+                <div class="card-sobre">
+                    <img src="./src/assets/Images/search.svg" alt="Ícone de lupa em encomenda">
+                    <h3>Busque por uma encomenda</h3>
+                    <p>Use o Rastreio Xpress para encontrar suas encomendas. Basta colar o código de rastreio no campo de pesquisa e aproveitar.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="card-sobre">
+                    <img src="./src/assets/Images/phone_loc.svg" alt="Ícone de celular e encomenda">
+                    <h3>Acompanhe suas encomendas</h3>
+                    <p>O Rastreio Xpress foi desenvolvido para facilitar a visualização de suas encomendas. Nada de atualizações misteriosas e difíceis de entender</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="card-sobre">
+                    <img src="./src/assets/Images/notification_bell.svg" alt="Ícone de notificações">
+                    <h3>Receba notificações</h3>
+                    <p>No Rastrei Xpress você acompanha tudo o que acontece com a sua encomenda diretamente no seu e-mail.</p>
+                </div>
+            </div>
+            
+            <div class="container-sobre-cadastrar">
+                <h2>O Rastreio Xpress foi desenvolvido especialmente para quem deseja usar uma ferramenta simples e objetiva, sem enrolação.</h2>
+                <button class="btn-cadastre-se">CADASTRE-SE AGORA</button>
+            </div>
+
+        </section>
+
+        <!-- ----- Seção Parceiros ----- -->
+
+        <section id="parceiros" class="container-secao-parceiros">
+            <div class="container-parceiros-texto">
+                <h2>A plataforma de rastreamento mais completa do mercado</h2>
+                <p>O Melhor Rastreio controla todos os envios postados na Azul Cargo Express e Correios.</p>
+                <p>Porém, quem faz envios com etiquetas geradas na plataforma do Melhor Envio também consegue rastrear encomendas enviadas pela Jadlog, Buslog, Via Brasil e LATAM Cargo.</p>
+                <div class="parceiros-logos">
+                    <img id="logo-jt" src="./src/assets/Images/logo-jt-express.png" alt="Logo J&T Express">
+                    <img id="logo-azul-cargo" src="./src/assets/Images/logo-cargos.png" alt="Logo Azul Cargo Express">
+                    <img id="logo-buslog" src="./src/assets/Images/logo-buslog.png" alt="Logo Buslog">
+                    <img id="logo-correios" src="./src/assets/Images/logo-correios.png" alt="Logo Correios">
+                </div>
+            </div>
+            <div class="container-parceiros-imagem">
+                <img src="./src/assets/Images/image_green_background.svg" alt="Vetor de mulher do lado de encomenda  fazendo um jóia">
+            </div>
+        </section>
+
+        <!-- ----- Container Ajuda ----- -->
+        
+        <section id="ajuda" class="container-secao-ajuda">
+
+            <!-- Heading ajuda -->
+            <div class="container-ajuda">
+                <div class="ajuda-imagem"><img src="./src/assets/Images/need_help.svg" alt="Vetor de uma mulher segurando notebook com dúvida"></div>
+
+                <div class="ajuda-textos-heading">
+                    <h2>Precisa de ajuda com algum rastreio?</h2>
+                    <p>Veja o que fazer em cada um dos casos:</p>
+                </div>
+            </div>
+
+            <!-- ----- Cards Flexbox ----- -->
+
+            <div class="container-cards">
+
+                <!-- seta esquerda -->
+                <img id="icon-seta" width="64" height="64" src="https://img.icons8.com/ios-filled/64/2bc866/less-than.png" alt="less-than"/>
+
+                <!-- Card 1 -->
+                <div class="card">
+                    <img class="ajuda-icon" width="64" height="64" src="https://img.icons8.com/ios/50/2bc866/hourglass.png" alt="hourglass"/>
+                    <h3>Estou esperando uma encomenda</h3>
+                    <p>O rementente é a única pessoa que pode resolver problemas relacionados ao rastreio.</p>
+                    <p>Sugerimos que peça para a pessoa responsávek pelo envio entrar em contato ocm a gente seguindo as intruções para lojistas.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card">
+                    <img class="ajuda-icon" width="64" height="64" src="https://img.icons8.com/pastel-glyph/128/2bc866/box--v1.png" alt="box--v1"/>
+                    <h3>Enviei um pacote com etiquetado Melhor Envio</h3>
+                    <p>É muito fácil encontrar ajuda. Veja só:</p>
+                    <ul>
+                        <li>Entre na sua conta Melhor Envio</li>
+                        <li>Vá até a opção Ajuda</li>
+                        <li>Escolha o assunto que melhor representa sua dúvida e encontre o suporte que precisa</li>
+                    </ul>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card">
+                    <img class="ajuda-icon" width="64" height="64" src="https://img.icons8.com/forma-light/64/2bc866/paper.png" alt="paper"/>
+                    <h3>Comprei uma etiqueta diretamente com a transportadora</h3>
+                    <p>Sugerimos que entre em contato com a empresa responsável pelo envio.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="card">
+                    <img class="ajuda-icon" width="64" height="64" src="https://img.icons8.com/windows/64/2bc866/money.png" alt="money"/>
+                    <h3>Eu vou pagar a mesma taxa de uso ou mensalidade?</h3>
+                    <p>Não! O melhor Rastreio é totalmente gratuito e não cobra nenhuma mensalidade ou taxax pelos serviços.</p>
+                </div>
+
+                <!-- seta direita -->
+                <img id="icon-seta" width="64" height="64" src="https://img.icons8.com/ios-filled/64/2bc866/more-than.png" alt="more-than"/>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
